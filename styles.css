@@ -52,7 +52,7 @@ body {
 .slides h2 {
     font-size: 2.625rem;
     font-weight: 600;
-    max-width: 650px;
+    /* max-width: 650px; */
 }
 
 .slide1 {
@@ -190,6 +190,7 @@ body {
 
 .offerings-banner {
     font-size: 2.25rem;
+    white-space: nowrap;
 }
 
 .offerings {
@@ -245,6 +246,8 @@ body {
 
 .topImage {
     margin-top: -12.5rem;
+    position: relative;
+    top: -7rem;
 }
 
 .arrow {
@@ -255,6 +258,7 @@ body {
     bottom: calc(100vh - 90%);
     left: 50%;
     transform: translateX(-50%);
+    cursor: pointer;
 }
 
 @media (max-width: 600px) {
