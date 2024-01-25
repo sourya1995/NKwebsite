@@ -465,8 +465,8 @@ body {
   
   @media (min-width: 901px) and (max-width: 1500px) {
     .introImage {
-        width: 1.8125rem;
-        height: 1.8125rem;
+        width: 3rem;
+        height: 3rem;
     }
     body {
         overscroll-behavior-y: none;
@@ -477,45 +477,51 @@ body {
     gap: 1.5625rem;
    }
 
+   .slides p {
+    max-width: 600px;
+   }
+
    .intro {
     margin-left: -0.9375rem;
    }
 
-   .slides h2 {
-    font-size: 1.3125rem;
-    max-width: 325px;
-   }
+   
+    /* font-size: 1.3125rem; */
+    .slides h2 {
+        max-width: 2500px;
+       }
+
 
    .slide2 {
-    font-size: 0.6875rem;
+    /* font-size: 0.6875rem; */
    }
 
    .slide3 {
-    font-size: 0.6875rem;
+    /* font-size: 0.6875rem; */
    }
 
    .slide4 {
-    font-size: 0.6875rem;
+    /* font-size: 0.6875rem; */
    }
 
    .slide5 {
-    font-size: 0.6875rem;
+    /* font-size: 0.6875rem; */
    }
 
    .slide6 {
-    font-size: 0.6875rem;
+    /* font-size: 0.6875rem; */
    }
 
    .slide7 {
-    font-size: 0.6875rem;
+    /* font-size: 0.6875rem; */
    }
 
    .slide8 {
-    font-size: 0.6875rem;
+    /* font-size: 0.6875rem; */
    }
 
    .slide10 {
-    font-size: 0.6875rem;
+    /* font-size: 0.6875rem; */
     display: flex;
         flex-direction: column;
         justify-content: center;
@@ -528,8 +534,8 @@ body {
    }
 
    .offerings img {
-    width: 3.125rem;
-    height: 3.125rem;
+    width: 9rem;
+    height: 9rem;
    }
 
    .mic_item {
@@ -542,7 +548,7 @@ body {
    }
 
    .offerings-caption {
-    font-size: 0.875rem;
+    font-size: 1rem;
    }
 
    .speaker {
@@ -552,8 +558,16 @@ body {
 
    .topImage {
         margin-top: -6.25rem;
-        width: 1.8125rem;
-        height: 1.8125rem;
+        width: 3rem;
+        height: 3rem;
+   }
+
+   .slide10 {
+    /* font-size: 0.45833rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
    }
   }
   
