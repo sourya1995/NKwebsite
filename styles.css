@@ -79,6 +79,10 @@ body {
     font-size: 1.375rem;
 }
 
+.slide2 p{
+    width: 50rem;
+}
+
 .slide3 {
     display: flex;
     flex-direction: column;
@@ -87,6 +91,10 @@ body {
     color: black;
     text-align: center;
     font-size: 1.375rem;
+}
+
+.slide3 p{
+    width: 50rem;
 }
 
 .slide4 {
@@ -100,6 +108,10 @@ body {
     font-size: 1.375rem;
 }
 
+.slide4 p{
+    width: 50rem;
+}
+
 .slide5 {
     display: flex;
     flex-direction: column;
@@ -109,6 +121,10 @@ body {
     color: white;
     text-align: center;
     font-size: 1.375rem;
+}
+
+.slide5 p {
+    width: 50rem;
 }
 
 .slide6 {
@@ -122,6 +138,10 @@ body {
     font-size: 1.375rem;
 }
 
+.slide6 p {
+    width: 50rem;
+}
+
 .slide7 {
     display: flex;
     flex-direction: column;
@@ -131,6 +151,10 @@ body {
     color: white;
     text-align: center;
     font-size: 1.375rem;
+}
+
+.slide7 p {
+    width: 50rem;
 }
 
 .slide8 {
@@ -144,6 +168,18 @@ body {
     font-size: 1.375rem;
 }
 
+.slide8 .commitment {
+    width: 53.125rem;
+}
+
+.slide8 .reality {
+    width: 62.5rem;
+}
+
+.slide8 .mentorship {
+    width: 50rem;
+}
+
 .slide9 {
     display: flex;
     flex-direction: column;
@@ -154,7 +190,9 @@ body {
     text-align: center;
 }
 
-
+.offerings-banner {
+    font-size: 2.25rem;
+}
 
 .offerings {
     display: flex;
@@ -185,6 +223,7 @@ body {
 
   .offerings-caption {
     font-size: 1.75rem;
+    margin-top: 1.25rem;
   }
 
   .speaker {
@@ -200,6 +239,10 @@ body {
     color: black;
     text-align: center;
     font-size: 1.375rem;
+}
+
+.slide10 p{
+    width: 50rem;
 }
 
 .topImage {
@@ -443,6 +486,8 @@ body {
    .cutlery_item {
     margin-left: 3.75rem;
    }
+
+   
 
    .offerings-caption {
     font-size: 0.875rem;
