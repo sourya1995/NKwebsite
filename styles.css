@@ -37,6 +37,7 @@ body {
     color: white;
     scroll-snap-align: start;
     transition: all 0.5s ease;
+    position: relative;
    
 }
 
@@ -250,6 +251,10 @@ body {
     width: 65.576px;
     height: 35.787px;
     /* margin-top: 15rem; */
+    position: absolute;
+    bottom: calc(100% - 900px);
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 @media (max-width: 600px) {
