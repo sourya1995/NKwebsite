@@ -263,8 +263,8 @@ body {
 
 @media (max-width: 600px) {
     .introImage {
-        height: 0.90625rem;
-        width: 0.90625rem;
+        height: 3rem;
+        width: 3rem;
     }
 
     body {
@@ -281,79 +281,91 @@ body {
        }
     
        .slides h2 {
-        font-size: 0.65625rem;
-        max-width: 162.5px;
+        max-width: 600px;
        }
     
        .slide2 {
-        font-size: 0.34375rem;
+        /* font-size: 0.34375rem; */
        }
     
        .slide3 {
-        font-size: 0.34375rem;
+        /* font-size: 0.34375rem; */
        }
     
        .slide4 {
-        font-size: 0.34375rem;
+        /* font-size: 0.34375rem; */
        }
     
        .slide5 {
-        font-size: 0.34375rem;
+        /* font-size: 0.34375rem; */
        }
     
        .slide6 {
-        font-size: 0.34375rem;
+        /* font-size: 0.34375rem; */
        }
     
        .slide7 {
-        font-size: 0.34375rem;
+        /* font-size: 0.34375rem; */
        }
     
-       .slide8 {
-        font-size: 0.34375rem;
+       .slide8  {
+        /* font-size: 0.34375rem; */
+       }
+
+       .slide8 p {
+        /* font-size: 0.6rem; */
+        max-width: 100%;
        }
     
        .slide10 {
-        font-size: 0.34375rem;
+        /* font-size: 0.34375rem; */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
        }
-    
-       .offerings {
-        margin-top: 1.25rem;
-        margin-left: -0.21875rem;
+
+       .arrow {
+        bottom: calc(100% - 99vh)
        }
     
-       .offerings img {
-        width: 1.5625rem;
-        height: 1.5625rem;
-       }
-    
-       .mic_item {
-        margin-left: 1.5625rem;
-        margin-right: 3.125rem;
-       }
-    
-       .cutlery_item {
-        margin-left: 1.875rem;
-       }
-    
-       .offerings-caption {
-        font-size: 0.4375rem;
-       }
-    
-       .speaker {
-        width: 3.125rem;
-        height: 3.125rem;
-       }
+      
     
        .topImage {
             margin-top: -3.125rem;
-            height: 0.90625rem;
-            width: 0.90625rem;
+            height: 3rem;
+            width: 3rem;
        }
+
+       .slides p {
+        width: 20rem;
+        font-size: 1rem;
+       }
+
+       .slide9 h2 {
+        font-size: 1.3rem;
+        display: flex;
+        flex-direction: row;
+        
+       }
+
+       .offerings {
+        flex-wrap: wrap;
+        margin-top: 0;
+        margin-left: 1rem;
+      }
+      
+      .offerings li {
+        margin: 1rem;
+        padding: 1rem;
+      }
+
+      .offerings-caption {
+        margin-top: 0;
+      }
+
+
+       
   }
   
   @media (min-width: 601px) and (max-width: 900px) {
