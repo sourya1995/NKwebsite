@@ -36,16 +36,13 @@ body {
     gap: 3.125rem;
     color: white;
     scroll-snap-align: start;
+    transition: all 0.5s ease;
    
 }
 
 .intro {
     margin-left: -1.875rem;
 }
-
-
-
-
 
 /* .slides img{
     width: 350px;
@@ -247,6 +244,12 @@ body {
 
 .topImage {
     margin-top: -12.5rem;
+}
+
+.arrow {
+    width: 65.576px;
+    height: 35.787px;
+    /* margin-top: 15rem; */
 }
 
 @media (max-width: 600px) {
@@ -486,8 +489,6 @@ body {
    .cutlery_item {
     margin-left: 3.75rem;
    }
-
-   
 
    .offerings-caption {
     font-size: 0.875rem;

@@ -171,6 +171,10 @@
         <div class="slides slide1">
             <img src="./images/WhiteLogo.png">
             <h2 class="intro">NKSQR</h2>
+            <div>
+                <img src="./images/WhiteDownArrow.png" class="arrow">
+            </div>
+           
         </div>
         <div class="slides slide2">
             <img src="./images/WhiteLogo.png" class="topImage">
@@ -178,6 +182,10 @@
             <p>At NKSQR, we support groundbreaking ideas and visionary entrepreneurs who aspire to challenge the status quo.</p>
             <p>As a forward-looking fund, we aim to achieve a scalable societal impact by transcending conventional boundaries with our strategic capital at diverse stages of growth.</p>
             <p>We embrace taking bold leaps while honoring our deep-rooted traditional business values.</p>
+            <div>
+                <img src="./images/WhiteDownArrow.png" class="arrow">
+            </div>
+           
            
         </div>
         <div class="slides slide3">
@@ -186,6 +194,9 @@
             <p>NKSQR operates at the intersection of innovation and purpose.</p>
             <p>We excel in fostering growth by leveraging our years of investing expertise, strategic insight and business values.</p>
             <strong>Our core focus areas are:</strong>
+            <div>
+            <img src="./images/BlackDownArrow.png" class="arrow">
+            </div>
         
         </div>
         <div class="slides slide4">
@@ -193,6 +204,9 @@
             <h2>Venture Capital</h2>
             <p>We understand the immense value of early-stage innovation.</p> 
             <p>We actively seek out and invest in ideas and founders who possess the potential to reshape entire industries.</p>
+            <div>
+                <img src="./images/WhiteDownArrow.png" class="arrow">
+            </div>
         
         </div>
         <div class="slides slide5">
@@ -200,21 +214,28 @@
             <h2>Private Equity</h2>
             <p>We believe in nurturing visionary ideas at different stages of growth.</p> 
             <p>We support our convictions by investing in businesses with our capital, experienced outlook, and a team of experts.</p>
-        
+            <div>
+                <img src="./images/WhiteDownArrow.png" class="arrow">
+            </div>
         </div>
         <div class="slides slide6">
             <img src="./images/Group.jpg" class="topImage">
             <h2>Launching Ventures</h2>
             <p>We don't just back ideas; we independently execute them, too.</p>
             <p>Recognizing that great ideas demand prompt action, we ensure timely implementation to transform them into reality.</p>
-        
+            <div>
+                <img src="./images/WhiteDownArrow.png" class="arrow">
+            </div>
         </div>
         <div class="slides slide7">
             <img src="./images/Group.jpg" class="topImage">
             <h2>Media & Distribution</h2>
             <p>We drive business awareness among the masses through endeavors like the 'WTF Is' Podcast.</p>
             <p>We produce profound and data-driven discussions with esteemed industry leaders and experts to deliver nuances and insights to the audience.</p>
-        
+            <div>
+                <img src="./images/WhiteDownArrow.png" class="arrow">
+            </div>
+            
         </div>
         <div class="slides slide8">
             <img src="./images/Group.jpg" class="topImage">
@@ -222,7 +243,9 @@
             <p class="commitment">Our commitment to promoting young entrepreneurs goes beyond rhetoric.</p> 
             <p class="reality">We help aspiring entrepreneurs under the age of 22 turn their business ideas into reality.</p>
             <p class="mentorship">Through this fund, we not only provide financial resources but also provide mentorship from marquee industry experts.</p>
-        
+            <div>
+                <img src="./images/WhiteDownArrow.png" class="arrow">
+            </div>
         </div>
         <div class="slides slide9">
             <img src="./images/WhiteLogo.png" class="topImage">
@@ -241,7 +264,9 @@
                     <p class="offerings-caption">THE GLOBAL PANTRY CO.</p>
                 </li>
             </ul>
-        
+            <div>
+                <img src="./images/WhiteDownArrow.png" class="arrow">
+            </div>
         </div>
         <div class="slides slide10">
             <img src="./images/BlackLogo.png" class="topImage">
@@ -249,9 +274,26 @@
             <p>NKSQR, Church Street, Bangalore</p>
             <p>+91 080713346, +91 6781 7908</p>
             <p>contactus@nksqr.com</p>
-        
+            <div>
+                <img src="./images/BlackUpArrow.png" class="arrow">
+            </div>
+            
         </div>
     </div>
+    <script>
+        var arrows = document.querySelectorAll('.arrow')
+        var slides = document.querySelectorAll('.slides')
+        for (var i = 0; i < arrows.length; i++) {
+            arrows[i].addEventListener('click', function() {
+                var currentSlide = this.parentNode.parentNode;
+                if(currentSlide === slides[slides.length - 1]) {
+                    slides[0].scrollIntoView({behavior: 'smooth' });
+                } else {
+                    currentSlide.nextElementSibling.scrollIntoView({behavior: 'smooth'});
+                }
+            });
+        }
+    </script>
     
 </body>
 </html>
