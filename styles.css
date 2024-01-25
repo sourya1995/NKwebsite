@@ -255,7 +255,7 @@ body {
     height: 35.787px;
     /* margin-top: 15rem; */
     position: absolute;
-    bottom: calc(100vh - 90%);
+    bottom: calc(100vh - 80%);
     left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
