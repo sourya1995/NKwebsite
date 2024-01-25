@@ -262,6 +262,11 @@ body {
 }
 
 @media (max-width: 600px) {
+    .introImage {
+        height: 0.90625rem;
+        width: 0.90625rem;
+    }
+
     body {
         overscroll-behavior-y: none;
         overscroll-behavior-x: none;
@@ -346,10 +351,17 @@ body {
     
        .topImage {
             margin-top: -3.125rem;
+            height: 0.90625rem;
+            width: 0.90625rem;
        }
   }
   
   @media (min-width: 601px) and (max-width: 900px) {
+    .introImage {
+        width: 1.20833rem;
+        height: 1.20833rem;
+    }
+
     body {
         overscroll-behavior-y: none;
         overscroll-behavior-x: none;
@@ -434,10 +446,17 @@ body {
     
        .topImage {
             margin-top: -4.1667rem;
+            width: 1.20833rem;
+            height: 1.20833rem;
        }
   }
   
   @media (min-width: 901px) and (max-width: 1500px) {
+    .introImage {
+        width: 1.8125rem;
+        height: 1.8125rem;
+    }
+    
     body {
         overscroll-behavior-y: none;
         overscroll-behavior-x: none;
@@ -522,6 +541,8 @@ body {
 
    .topImage {
         margin-top: -6.25rem;
+        width: 1.8125rem;
+        height: 1.8125rem;
    }
   }
   
