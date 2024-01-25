@@ -310,6 +310,10 @@ body {
     
        .slide10 {
         font-size: 0.34375rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
        }
     
        .offerings {
@@ -394,6 +398,10 @@ body {
     
        .slide10 {
         font-size: 0.45833rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
        }
     
        .offerings {
@@ -478,6 +486,10 @@ body {
 
    .slide10 {
     font-size: 0.6875rem;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
    }
 
    .offerings {
