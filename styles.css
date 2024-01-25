@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    overscroll-behavior-y: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.slides {
+    width: 100%;
+    height: 100vh;
+   /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    gap: 3.125rem;
+    color: white;
+    scroll-snap-align: start;
+   
+}
+
+.intro {
+    margin-left: -1.875rem;
+}
+
+
+
+
+
+/* .slides img{
+    width: 350px;
+} */
+
+.slides h2 {
+    font-size: 2.625rem;
+    font-weight: 600;
+    max-width: 650px;
+}
+
+.slide1 {
+    background: url('./images/NKSQR-webside-bg.png');
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.slide2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #899581;
+    color: white;
+    text-align: center;
+    font-size: 1.375rem;
+}
+
+.slide3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    font-size: 1.375rem;
+}
+
+.slide4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #13100F;
+    color: white;
+    text-align: center;
+    font-size: 1.375rem;
+}
+
+.slide5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #13100F;
+    color: white;
+    text-align: center;
+    font-size: 1.375rem;
+}
+
+.slide6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #13100F;
+    color: white;
+    text-align: center;
+    font-size: 1.375rem;
+}
+
+.slide7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #13100F;
+    color: white;
+    text-align: center;
+    font-size: 1.375rem;
+}
+
+.slide8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #13100F;
+    color: white;
+    text-align: center;
+    font-size: 1.375rem;
+}
+
+.slide9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #899581;
+    color: white;
+    text-align: center;
+}
+
+
+
+.offerings {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-left: -0.875rem;
+  }
+  
+  .offerings li {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  .offerings img {
+    border-radius: 50%;
+    width: 6.25rem; /* Adjust as needed */
+    height: 6.25rem; /* Adjust as needed */
+  }
+
+  .mic_item {
+    margin-left: 6.25rem;
+    margin-right: 12.5rem;
+  }
+
+  .cutlery_item {
+    margin-left: 7.5rem;
+  }
+
+  .offerings-caption {
+    font-size: 1.75rem;
+  }
+
+  .speaker {
+    width: 12.5rem;
+    height: 12.5rem;
+  }
+
+.slide10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    font-size: 1.375rem;
+}
+
+.topImage {
+    margin-top: -12.5rem;
+}
+
+@media (max-width: 600px) {
+    .slides {
+        gap: 0.78125rem;
+       }
+    
+       .intro {
+        margin-left: -0.46875rem;
+       }
+    
+       .slides h2 {
+        font-size: 0.65625rem;
+        max-width: 162.5px;
+       }
+    
+       .slide2 {
+        font-size: 0.34375rem;
+       }
+    
+       .slide3 {
+        font-size: 0.34375rem;
+       }
+    
+       .slide4 {
+        font-size: 0.34375rem;
+       }
+    
+       .slide5 {
+        font-size: 0.34375rem;
+       }
+    
+       .slide6 {
+        font-size: 0.34375rem;
+       }
+    
+       .slide7 {
+        font-size: 0.34375rem;
+       }
+    
+       .slide8 {
+        font-size: 0.34375rem;
+       }
+    
+       .slide10 {
+        font-size: 0.34375rem;
+       }
+    
+       .offerings {
+        margin-top: 1.25rem;
+        margin-left: -0.21875rem;
+       }
+    
+       .offerings img {
+        width: 1.5625rem;
+        height: 1.5625rem;
+       }
+    
+       .mic_item {
+        margin-left: 1.5625rem;
+        margin-right: 3.125rem;
+       }
+    
+       .cutlery_item {
+        margin-left: 1.875rem;
+       }
+    
+       .offerings-caption {
+        font-size: 0.4375rem;
+       }
+    
+       .speaker {
+        width: 3.125rem;
+        height: 3.125rem;
+       }
+    
+       .topImage {
+            margin-top: -3.125rem;
+       }
+  }
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+    .slides {
+        gap: 1.0417rem;
+    }
+    
+       .intro {
+        margin-left: -0.625rem;
+       }
+    
+       .slides h2 {
+        font-size: 0.875rem;
+        max-width: 216.67px;
+       }
+    
+       .slide2 {
+        font-size: 0.45833rem;
+       }
+    
+       .slide3 {
+        font-size: 0.45833rem;
+       }
+    
+       .slide4 {
+        font-size: 0.45833rem;
+       }
+    
+       .slide5 {
+        font-size: 0.45833rem;
+       }
+    
+       .slide6 {
+        font-size: 0.45833rem;
+       }
+    
+       .slide7 {
+        font-size: 0.45833rem;
+       }
+    
+       .slide8 {
+        font-size: 0.45833rem;
+       }
+    
+       .slide10 {
+        font-size: 0.45833rem;
+       }
+    
+       .offerings {
+        margin-top: 1.667rem;
+        margin-left: -0.29166rem;
+       }
+    
+       .offerings img {
+        width: 2.0833rem;
+        height: 2.0833rem;
+       }
+    
+       .mic_item {
+        margin-left: 2.0833rem;
+        margin-right: 4.1667rem;
+       }
+    
+       .cutlery_item {
+        margin-left: 2.5rem;
+       }
+    
+       .offerings-caption {
+        font-size: 0.5833rem;
+       }
+    
+       .speaker {
+        width: 4.1667rem;
+        height: 4.1667rem;
+       }
+    
+       .topImage {
+            margin-top: -4.1667rem;
+       }
+  }
+  
+  @media (min-width: 901px) and (max-width: 1500px) {
+   .slides {
+    gap: 1.5625rem;
+   }
+
+   .intro {
+    margin-left: -0.9375rem;
+   }
+
+   .slides h2 {
+    font-size: 1.3125rem;
+    max-width: 325px;
+   }
+
+   .slide2 {
+    font-size: 0.6875rem;
+   }
+
+   .slide3 {
+    font-size: 0.6875rem;
+   }
+
+   .slide4 {
+    font-size: 0.6875rem;
+   }
+
+   .slide5 {
+    font-size: 0.6875rem;
+   }
+
+   .slide6 {
+    font-size: 0.6875rem;
+   }
+
+   .slide7 {
+    font-size: 0.6875rem;
+   }
+
+   .slide8 {
+    font-size: 0.6875rem;
+   }
+
+   .slide10 {
+    font-size: 0.6875rem;
+   }
+
+   .offerings {
+    margin-top: 2.5rem;
+    margin-left: -0.4375rem;
+   }
+
+   .offerings img {
+    width: 3.125rem;
+    height: 3.125rem;
+   }
+
+   .mic_item {
+    margin-left: 3.125rem;
+    margin-right: 6.25rem;
+   }
+
+   .cutlery_item {
+    margin-left: 3.75rem;
+   }
+
+   .offerings-caption {
+    font-size: 0.875rem;
+   }
+
+   .speaker {
+    width: 6.25rem;
+    height: 6.25rem;
+   }
+
+   .topImage {
+        margin-top: -6.25rem;
+   }
+  }
+  
+   
+
